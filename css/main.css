@@ -1,12 +1,29 @@
 .home {
-  color: red;
-  z-index: 1000;
-  position: relative
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.about {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.cv {
+  position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.blog {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
 }
 
 nav{
 	z-index: 1000;
-	position: relative
 }
 
 .homeImage{
