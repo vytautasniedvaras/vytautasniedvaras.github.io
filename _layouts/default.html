@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>{{ page.title }}</title>
     
     <link rel="stylesheet" type="text/css" href="/css/main.css">
@@ -10,25 +11,21 @@
 
   <body>
     <nav>
-<ul>
-<li><a href="/">Home</a></li>
-<li><a href="/about">About</a></li>
-<li><a href="/cv">CV</a></li>
-<li><a href="/blog">Blog</a></li>
-</ul>
+
+<a href="/" class="home">HOME</a>
+<a href="/about" class="about">ABOUT</a>
+<a href="/cv" class="vs">CV</a>
+<a href="/blog" class="blog">BLOG</a>
+
     </nav>
+
+    <img src="{{site.url}}/images/test.jpg" style="display: block; margin: auto;" />
 <div class="container">
 
   {{ content }}
 
 </div>
   
-  <footer>
-   <ul>
-   <li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-   <li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-   </ul>
-  </footer>
   </body>
 
 </html>
