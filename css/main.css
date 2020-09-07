@@ -1,29 +1,53 @@
-.home {
+.shows {
+
   position: absolute;
   left: 10px;
   top: 10px;
+  color: white;
 }
 
-.about {
+.guests {
   position: absolute;
   right: 10px;
-  top: 10px;
+  bottom: 10px;
+  color: white;
 }
 
 .cv {
   position: absolute;
-    bottom: 10px;
-    right: 10px;
+  bottom: 10px;
+  right: 10px;
+  color: white;
 }
 
-.blog {
+.about {
   position: absolute;
-  bottom: 10px;
-  left: 10px;
+  top: 10px;
+  right: 10px;
+  color: white;
 }
+
+
+
+
+a:link, a:visited, a:hover, a:active{
+  text-decoration: none;
+
+}
+
 
 nav{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 56px;
 	z-index: 1000;
+}
+
+nav a{
+  colour: white;
+}
+
+nav:visited{
+	colour: black;
 }
 
 .homeImage{
@@ -35,6 +59,7 @@ nav{
 }
 
 .container {
+	background-color: blue;
     position: absolute;
     top: 0;
     left: 0;
