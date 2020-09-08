@@ -55,7 +55,7 @@ a:link, a:visited, a:hover, a:active{
 
 nav{
 	font-family: spooky;
-	font-size: 56px;
+	font-size: 38px;
 	z-index: 1000;
 }
 
@@ -107,9 +107,15 @@ html, body {margin: 0; height: 100%; overflow: hidden}
 
 @media only screen and (min-width: 600px) {
   /* For tablets: */
+  nav{
+	font-size: 48px;
+  }
 
 }
 @media only screen and (min-width: 768px) {
   /* For desktop: */
+  nav{
+	font-size: 56px;
+}
 
 }
